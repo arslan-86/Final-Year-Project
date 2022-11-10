@@ -51,7 +51,45 @@ img{
       width: 60%;
    }
 }
+@media  screen and (max-width: 696px){
+   header {
+      width: 100%;
+      padding: 0 10px;
+      justify-content: space-between;
+   }
+   header > h1{
+      font-size: 1.2rem;
+      
+   }  
+  .buttons button{
+      font-size: 0.6rem;
+      width: 60px;
+      padding: 5px 5px;
+      margin-right: 5px;
+   }
+   .image-div{
+      display: none;
+   }
+   .container{
+      width:50%;
+      position: absolute;
+      top: 150px;
+   }
+   section{
+      justify-content:center;
 
+   }
+   .container > h1{
+      font-size: 2rem;
+      line-height: 2rem;
+      margin-bottom: 20px;
+   }
+   .container > p{
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+} 
  @media  screen and (max-width: 400px){
    header {
       width: 100%;
