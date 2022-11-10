@@ -51,93 +51,20 @@ img{
       width: 60%;
    }
 }
-@media (max-width: 796px) and (max-height: 1600px){
-   header {
-      padding: 0 20px;
-      height: 90px;
-   }
-   header > h1{
-      font-size: 3rem;
-      
-   }  
-   .buttons button{
-      font-size: 1.8rem;
-      width: 125px;
-      padding: 8px 5px;
-      margin-right: 5px;
-   }
-   section{
-      align-items: start;
 
-   }
-   .image-div{
-      display: none;
-   }
-   .container{
-      width: 80%;
-      position: relative;
-      top: 300px;
-   }
-   .container > h1{
-      font-size: 5rem;
-      line-height: 5rem;
-      margin-bottom: 20px;
-   }
-   .container > p{
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-   
-}
-@media  screen and (max-width: 692px){
+ @media  screen and (max-width: 400px){
    header {
-      padding: 0 20px;
-      height: 90px;
+      width: 100%;
+      padding: 0 10px;
+      justify-content: space-between;
    }
    header > h1{
-      font-size: 3rem;
-      
-   }  
-   .buttons button{
-      font-size: 1.8rem;
-      width: 125px;
-      padding: 8px 5px;
-      margin-right: 5px;
-   }
-   section{
-      align-items: start;
-
-   }
-   .image-div{
-      display: none;
-   }
-   .container{
-      width: 80%;
-      position: relative;
-      top: 300px;
-   }
-   .container > h1{
-      font-size: 5rem;
-      line-height: 5rem;
-      margin-bottom: 20px;
-   }
-   .container > p{
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-   
-}
-/* @media  screen and (max-width: 496px){
-   header {
-      padding: 0 20px;
-   }
-   header > h1{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       
    }  
   .buttons button{
-      font-size: 1rem;
-      width: 80px;
+      font-size: 0.6rem;
+      width: 60px;
       padding: 5px 5px;
       margin-right: 5px;
    }
@@ -145,11 +72,17 @@ img{
       display: none;
    }
    .container{
-      width: 80%;
+      width:100%;
+      position: absolute;
+      top: 150px;
+   }
+   section{
+      justify-content:flex-start;
+
    }
    .container > h1{
-      font-size: 3rem;
-      line-height: 3rem;
+      font-size: 2rem;
+      line-height: 2rem;
       margin-bottom: 20px;
    }
    .container > p{
@@ -157,4 +90,4 @@ img{
       margin-bottom: 20px;
     }
 
-} */
+} 
