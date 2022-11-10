@@ -51,7 +51,7 @@ img{
       width: 60%;
    }
 }
-@media  screen and (max-width: 696px){
+@media  screen and (max-width: 560px){
    header {
       width: 100%;
       padding: 0 10px;
