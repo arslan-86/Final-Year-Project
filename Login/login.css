@@ -1,0 +1,70 @@
+
+body{
+   height: 100vh;
+}
+.container{
+   width: 100vw;
+   height: 90vh;
+   display: flex;
+   align-items: center;
+}
+.right-container{
+   
+   width: 50%;
+   text-align: center;
+}
+h1{
+   color: var(--navy2);
+   font-size: 4rem;
+   position: relative;
+   top: -60px;
+}
+span{
+   color: var(--radiant-yellow);
+}
+.tagline{
+   font-size: 1.2rem;
+   position: relative;
+   top: -70px;
+}
+.left-container{
+
+   width: 50%;
+}
+form{
+   background-color: #FFFFFF;
+   text-align: center;
+   width: 396px;
+   
+   overflow: hidden;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0,0,0,10%),0 8px 16px rgba(0,0,0,10%);
+}
+
+input{
+   display: block;
+   width: 366px;
+}
+.sign-in-botton{
+   margin-top: 5px;
+   width: 366px;
+}
+.sign-in-botton a{
+   text-decoration: none;
+   color: var(--yellow);
+}
+.forgot-password-link{
+   display: block;
+   text-decoration: none;
+   font-size: 1.1rem;
+   margin-bottom: 15px;
+}
+
+.create-btn{
+   color: var(--yellow);
+   background-color: var(--navy);
+}
+.create-btn a{
+   text-decoration: none;
+   color: white;
+}

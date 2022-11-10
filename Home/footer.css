@@ -1,0 +1,13 @@
+footer{
+    background-color: var(--gray);
+    height: 10vh;
+}
+.copyright-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px ;
+}
+.footer-span{
+    font-weight: bold;
+}

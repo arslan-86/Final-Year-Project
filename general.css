@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+
+:root{
+   --pale-blue: hsl(225, 100%, 94%);
+   --bright-blue: hsl(245, 75%, 52%);
+   --very-pale-blue: hsl(225, 100%, 98%);
+   --desaturated-blue: hsl(224, 23%, 55%);
+   --dark-blue: hsl(223, 47%, 23%);
+   /* Group 1: Red, Yellow, Navy */
+   /* Group 2: Radiant Yellow, Yellow, Navy */
+   --red: #F65058FF;
+   --yellow: #FBDE44FF;
+   --navy: #28334AFF;
+   --radiant-yellow: #F9A12EFF;
+   /* Group 3: Navy, Almond, Red-Orange and Mango */
+   --navy2: #1e3d59;
+   --almond: #f5f0e1;
+   --red-orange: #ff6e40;
+   --mango: #ffc13b;
+   --gray: rgba(211,210,215);
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: var(--very-pale-blue);
+}
+
+h1,h2,h3{
+   color: var(--navy);
+   font-family: 'Poppins', sans-serif;
+}
+span{
+  color: var(--radiant-yellow);
+}
+
+input, button{
+   margin: 15px;
+   padding: 10px;
+   border: 1px solid gray;
+   border-radius: 8px;
+}
+input{
+   font-size: 1rem;
+   cursor: text;
+}
+
+input:focus{
+   outline: none;
+   border: 1px solid var(--bright-blue);
+}
+
+button{
+   font-family:'Poppins', sans-serif;
+   color: var(--yellow);
+   background-color: var(--navy);
+   font-size: 1.1rem;
+   font-weight: bold;
+   cursor: pointer;
+}
+button:active{
+   position: relative;
+   top: 4px;
+}

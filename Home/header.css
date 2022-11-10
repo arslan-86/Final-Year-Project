@@ -1,0 +1,34 @@
+header{
+    background-color: var(--gray);
+    height: 45px;
+    position: sticky;
+    top: 0;
+}
+nav{
+    padding: 2px 100px 2px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+nav > h1{
+    color: var(--dark-blue);
+}
+span{
+    color: orange;
+}
+nav > div{
+    display: flex;
+    align-items: center;   
+}
+nav > div > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+nav > div > p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
