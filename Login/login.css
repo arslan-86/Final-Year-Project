@@ -1,41 +1,46 @@
 
 body{
+   /* Flex which I applied in .container isn't working that is why height is 100vh
+   to drag the container in the center */
    height: 100vh;
 }
+
 .container{
+   /* this is the main container I applied height 90vh and flex because I want it in the center */
    width: 100vw;
    height: 90vh;
    display: flex;
    align-items: center;
 }
-.right-container{
-   
+
+.right-container{   
+/*Container which has Title and tag line*/
    width: 50%;
    text-align: center;
 }
+
 h1{
    color: var(--navy2);
    font-size: 4rem;
-   position: relative;
+   position: relative; /*To push Title a bit up form its original position*/
    top: -60px;
 }
-span{
-   color: var(--radiant-yellow);
-}
+
+
 .tagline{
    font-size: 1.2rem;
-   position: relative;
-   top: -70px;
+   position: relative; /*To push tagline upward and right below the title*/
+   top: -70px; 
 }
-.left-container{
 
+.left-container{
    width: 50%;
 }
+
 form{
    background-color: #FFFFFF;
    text-align: center;
    width: 396px;
-   
    overflow: hidden;
    border-radius: 10px;
    box-shadow: 0 2px 4px rgba(0,0,0,10%),0 8px 16px rgba(0,0,0,10%);
@@ -43,16 +48,18 @@ form{
 
 input{
    display: block;
-   width: 366px;
+   width: 366px; /*396 - 20 padding in general css*/
 }
-.sign-in-botton{
+
+.sign-in-btn {
    margin-top: 5px;
    width: 366px;
 }
-.sign-in-botton a{
-   text-decoration: none;
-   color: var(--yellow);
+.sign-in-btn:hover a,.create-btn:hover a{
+   color:var(--navy);
+   background-color: var(--yellow);
 }
+
 .forgot-password-link{
    display: block;
    text-decoration: none;
@@ -60,11 +67,12 @@ input{
    margin-bottom: 15px;
 }
 
-.create-btn{
-   color: var(--yellow);
-   background-color: var(--navy);
-}
-.create-btn a{
+.sign-in-btn a, .create-btn a{
    text-decoration: none;
-   color: white;
+   color: var(--yellow);
+}
+
+.sign-in-btn:hover a,.create-btn:hover a{
+   color:var(--navy);
+   background-color: var(--yellow);
 }

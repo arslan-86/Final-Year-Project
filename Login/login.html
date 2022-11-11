@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +9,45 @@
    <link rel="stylesheet" href="../general.css">
    <title>Sign In</title>
 </head>
+
 <body>
    <div class="container">
-   <div class="right-container">
-      <h1>Smart <span>Quiz</span></h1>
-      <p class="tagline">Where a <Span> Smart</Span> Answer won't get you fired!</p>
-      
-     
+      <div class="right-container">
+
+         <h1>
+            Smart <span>Quiz</span>
+         </h1>
+
+         <p class="tagline">
+            Where a <Span> Smart</Span> Answer won't get you fired!
+         </p>
+      </div>
+
+      <div class="left-container">
+         <form>
+            <input type="text" placeholder="Email or username">
+            <input type="password" placeholder="Password">
+
+            <button class="sign-in-btn">
+               <a href="../Home/home.html">
+                  Sign In
+               </a>
+            </button>
+
+            <a href="#" class="forgot-password-link">
+               Forgot password?
+            </a>
+
+            <hr>
+
+            <button class="create-btn">
+               <a href="../Registration/Registration.html">
+                  Create Account
+               </a>
+            </button>
+         </form>
+      </div>
    </div>
-   <div class="left-container">
-      <form>
-         <input type="text" placeholder="Email or username">
-         <input type="password" placeholder="Password">
-        
-         <button class="sign-in-botton"><a href="../Home/home.html">Sign In</a></button>
-         <a href="#" class="forgot-password-link">Forgot password?</a>
-         <hr>
-         <button class="create-btn"><a href="../Registration/Registration.html">Create Account</a> </button>
-      </form>
-   </div>
-</div>
 </body>
+
 </html>
