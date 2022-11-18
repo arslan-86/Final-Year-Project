@@ -1,0 +1,20 @@
+body{
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+}
+.container{
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+#glanceTrackerCanvas{
+   position: absolute;
+   bottom: 40px;
+   right: 40px;
+   background-color:aqua;
+   width: 15vw;
+   height: 20vh;
+}
